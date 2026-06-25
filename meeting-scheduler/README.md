@@ -23,7 +23,7 @@ meeting-scheduler/
 │   ├── models/           # Mongoose schemas (User, MeetingSpace, Meeting)
 │   ├── routes/           # API routes (auth, spaces, meetings)
 │   ├── server.js         # Entry point
-│   ├── .env.example      # change the file name to .env
+│   ├── .env              # insert the mongoDB URI
 │   └── package.json
 │
 └── client/               # React frontend
@@ -39,8 +39,7 @@ meeting-scheduler/
 ---
 ## To start
 **installing the node modules in client and server folders**
-- in the .env file paste mongodb+srv://<db.username>:<db.password>@cluster0.1uzzwm2.mongodb.net/meetspace?appName=Cluster0 in the mongo_URI.
-  
+- create the .env file write PORT=5000 and MONGO_URI=mongodb+srv://<db.username>:<db.password>@cluster0.1uzzwm2.mongodb.net/meetspace?appName=Cluster0
 - write **npm i** in both the server and client terminal.
 - then write **npm start** in both terminals.
 ---
