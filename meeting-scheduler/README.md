@@ -39,7 +39,7 @@ meeting-scheduler/
 ---
 ## To start
 **installing the node modules in client and server folders**
-- create the .env file write PORT=5000 and MONGO_URI=mongodb+srv://<db.username>:<db.password>@cluster0.1uzzwm2.mongodb.net/meetspace?appName=Cluster0
+- create the .env file write PORT=5000 and MONGO_URI=mongodb+srv://<db.username>:<db.password>@cluster0.1uzzwm2.mongodb.net/meetspace?appName=Cluster0 in server folder.
 - write **npm i** in both the server and client terminal.
 - then write **npm start** in both terminals.
 ---
